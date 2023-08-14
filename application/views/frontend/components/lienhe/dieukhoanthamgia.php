@@ -1,6 +1,6 @@
 <section>
 	<div class="container">
-		<h2 style="color: #262144;border-bottom: 2px solid #ff6300;margin-bottom:20px;padding:10px 0px 5px 0px"><span>Điều khoản bảo hành</span></h2>
+		<h2 style="color: #00923f;border-bottom: 2px solid #ff6300;margin-bottom:20px;padding:10px 0px 5px 0px"><span>Điều khoản bảo hành</span></h2>
 		<div class="col-inner">
 			<h3><span style="color: #ff6600;">I.THỜI GIAN BẢO HÀNH</span></h3>
 			<table class="hehe" style="font-weight: 400; height: 254px;" width="800">

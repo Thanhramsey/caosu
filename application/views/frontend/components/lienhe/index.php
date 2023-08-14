@@ -80,15 +80,15 @@
                 <h1 style="color: black">Thông tin liên hệ</h1>
                 <ul class="list-unstyled">
                     <li class="clearfix">
-                        <i class="fa fa-map-marker fa-1x" style="color:#262144; padding: 20px; "></i>
+                        <i class="fa fa-map-marker fa-1x" style="color:#00923f; padding: 20px; "></i>
                         <span style="color: black"> 89 Phạm Văn Đồng, TP.Pleiku , Tỉnh Gia Lai</span><br>
                     </li>
                     <li class="clearfix">
-                        <i class="fa fa-phone fa-1x" style="color:#262144;padding: 20px;  "></i>
+                        <i class="fa fa-phone fa-1x" style="color:#00923f;padding: 20px;  "></i>
                         <span style="color: black">0979.190.303 - 0349.303.368</span>
                     </li>
                     <li class="clearfix">
-                        <i class="fa fa-envelope fa-1x " style="color:#262144; padding: 20px; "></i>
+                        <i class="fa fa-envelope fa-1x " style="color:#00923f; padding: 20px; "></i>
                         <span style="color: black"><a
                                 href="mailto:tempomusic0403@gmail.com">tempomusic0403@gmail.com</a></span>
                     </li>

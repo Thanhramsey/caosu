@@ -56,7 +56,7 @@
                                     ?>
                             </td>
                             <td width="70">
-                                <span> <a style="color: #262144;" href="account/orders/<?php echo $value['id'] ?>">Xem
+                                <span> <a style="color: #00923f;" href="account/orders/<?php echo $value['id'] ?>">Xem
                                         chi tiết</a></span>
                             </td>
                             <td width="70">
@@ -118,7 +118,7 @@
                                 ?>
                                 </td>
                                 <td width="70">
-                                    <span> <a style="color: #262144;"
+                                    <span> <a style="color: #00923f;"
                                             href="account/orders/<?php echo $value['id'] ?>">Xem chi tiết</a></span>
                                 </td>
                             </tr>

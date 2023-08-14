@@ -32,7 +32,7 @@ class HtmlFormatter extends NormalizerFormatter
         Logger::ERROR     => '#f0ad4e',
         Logger::CRITICAL  => '#FF7708',
         Logger::ALERT     => '#C12A19',
-        Logger::EMERGENCY => '#262144000',
+        Logger::EMERGENCY => '#00923f000',
     );
 
     /**
@@ -58,7 +58,7 @@ class HtmlFormatter extends NormalizerFormatter
             $td = '<pre>'.htmlspecialchars($td, ENT_NOQUOTES, 'UTF-8').'</pre>';
         }
 
-        return "<tr style=\"padding: 4px;text-align: left;\">\n<th style=\"vertical-align: top;background: #ccc;color: #262144\" width=\"100\">$th:</th>\n<td style=\"padding: 4px;text-align: left;vertical-align: top;background: #eee;color: #262144\">".$td."</td>\n</tr>";
+        return "<tr style=\"padding: 4px;text-align: left;\">\n<th style=\"vertical-align: top;background: #ccc;color: #00923f\" width=\"100\">$th:</th>\n<td style=\"padding: 4px;text-align: left;vertical-align: top;background: #eee;color: #00923f\">".$td."</td>\n</tr>";
     }
 
     /**

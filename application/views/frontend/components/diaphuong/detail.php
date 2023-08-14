@@ -15,7 +15,7 @@
 				<?php $this->load->view('frontend/modules/product-sale'); ?>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 product-content">
-				<div class="container" style="color:#262144">
+				<div class="container" style="color:#00923f">
 					<h3 style="margin-top:10px"><?php echo $row['name'] ?><i style="font-size:20px; margin-left:5px" class="glyphicon glyphicon-ok-circle"></i></h3>
 				</div>
 				<div class="container">

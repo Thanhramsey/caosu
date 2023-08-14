@@ -13,11 +13,11 @@ if (!$this->session->userdata('cart')) {
 				<form action="" enctype="multipart/form-data" method="post" accept-charset="utf-8" name='info-order' novalidate>
 					<?php
 					if (!$this->session->userdata('sessionKhachHang')) {
-						echo ' <div style="font-size: 14px; padding-top: 10px; color: #262144;">
+						echo ' <div style="font-size: 14px; padding-top: 10px; color: #00923f;">
                      Bạn đã có tài khoản?
                      <a href="dang-nhap" style="color:#3c8dbc ;font-size: 16px; ">Ấn vào đây để đăng nhập</a>
                      </div>
-					 <div style="font-size: 14px; padding-top: 10px; color: #262144;">
+					 <div style="font-size: 14px; padding-top: 10px; color: #00923f;">
                      Bạn chưa có tài khoản?
                      <a href="dang-ky" style="color:#3c8dbc;font-size: 16px; ">Ấn vào đây để đăng ký</a>
                      </div>';
@@ -103,7 +103,7 @@ if (!$this->session->userdata('cart')) {
 											<tr>
 												<td class="width30 text-right td-right-order">Mã giảm giá (nếu có):</td>
 												<td>
-													<input id="coupon" style="border-radius: 5px; border-color: #262144;" type="text" class="form-control" placeholder="Mã giảm giá" name="coupon">
+													<input id="coupon" style="border-radius: 5px; border-color: #00923f;" type="text" class="form-control" placeholder="Mã giảm giá" name="coupon">
 													<div class="error" id="result_coupon"></div>
 												</td>
 												<td colspan="1">

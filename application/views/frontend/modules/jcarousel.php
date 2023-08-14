@@ -66,7 +66,7 @@ $(window).on('load', function() {
     <div class="modal-dialog" style="width:70%">
 
         <!-- Modal content-->
-        <div class="modal-header" style="    background: #262144;color: #fff;border-radius: 6px 6px 0px 0px;">
+        <div class="modal-header" style="    background: #00923f;color: #fff;border-radius: 6px 6px 0px 0px;">
             <button type="button" class="close" data-dismiss="modal">&times;</button>
             <h4 class="modal-title">Ảnh sản phẩm</h4>
         </div>

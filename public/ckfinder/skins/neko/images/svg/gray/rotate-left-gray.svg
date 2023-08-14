@@ -7,7 +7,7 @@
     <mask id="rotate-left-b" fill="#fff">
       <use xlink:href="#rotate-left-a"/>
     </mask>
-    <use fill="#262144" fill-rule="nonzero" xlink:href="#rotate-left-a"/>
+    <use fill="#00923f" fill-rule="nonzero" xlink:href="#rotate-left-a"/>
     <g fill="#3B474E" mask="url(#rotate-left-b)">
       <polygon points="0 0 18 0 18 18 0 18"/>
     </g>

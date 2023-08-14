@@ -7,7 +7,7 @@
     <mask id="reset-b" fill="#fff">
       <use xlink:href="#reset-a"/>
     </mask>
-    <use fill="#262144" fill-rule="nonzero" transform="rotate(45 8.588 8.449)" xlink:href="#reset-a"/>
+    <use fill="#00923f" fill-rule="nonzero" transform="rotate(45 8.588 8.449)" xlink:href="#reset-a"/>
     <g fill="#3B474E" mask="url(#reset-b)">
       <polygon points="0 0 18 0 18 18 0 18"/>
     </g>

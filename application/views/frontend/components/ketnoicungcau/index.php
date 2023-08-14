@@ -207,7 +207,7 @@ $user = $this->session->userdata('sessionKhachHang');
 	<div class="modal" id="detail_modal">
 		<div class="modal-dialog">
 			<div class="modal-content">
-				<div class="modal-header" style="background: #262144;color: #fff">
+				<div class="modal-header" style="background: #00923f;color: #fff">
 					<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
 					<h4 id="detail_title" class="modal-title">Modal header</h4>
 				</div>
@@ -300,7 +300,7 @@ $user = $this->session->userdata('sessionKhachHang');
 	<div class="modal" id="cungcau_modal">
 		<div class="modal-dialog">
 			<div class="modal-content">
-				<div class="modal-header" style="background: #262144;color: #fff">
+				<div class="modal-header" style="background: #00923f;color: #fff">
 					<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
 					<h4 id="detail_title" class="modal-title">Modal header</h4>
 				</div>

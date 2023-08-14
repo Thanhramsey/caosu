@@ -7,7 +7,7 @@
     <mask id="add-photo-b" fill="#fff">
       <use xlink:href="#add-photo-a"/>
     </mask>
-    <use fill="#262144" fill-rule="nonzero" xlink:href="#add-photo-a"/>
+    <use fill="#00923f" fill-rule="nonzero" xlink:href="#add-photo-a"/>
     <g fill="#3B474E" mask="url(#add-photo-b)">
       <polygon points="0 0 18 0 18 18 0 18"/>
     </g>

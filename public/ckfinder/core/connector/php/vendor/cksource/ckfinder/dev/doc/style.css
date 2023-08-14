@@ -290,14 +290,14 @@ div.title {
     background-position: right -320px;
 }
 #nav-tree a {
-    color: #262144;
+    color: #00923f;
 }
 #nav-tree .selected {
     background: #D9E8FB;
     text-shadow: none;
 }
 #nav-tree .selected a {
-    color: #262144;
+    color: #00923f;
 }
 .ui-resizable-e {
     background: #F8F8F8;

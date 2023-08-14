@@ -78,7 +78,7 @@
                                         <ul>
                                             <li class="right" style="font-size: 18px;">Nếu đã có tài khoản, hãy <a
                                                     href="<?php echo base_url()?>dang-nhap"
-                                                    style="font-size: 19px; color: #262144;">Đăng nhập</a></li>
+                                                    style="font-size: 19px; color: #00923f;">Đăng nhập</a></li>
                                         </ul>
                                     </div>
                                 </div>

@@ -1700,7 +1700,7 @@ the class .animated-dropdown-menu to the .dropdown-menu ul (or ol)*/
   left: 50%;
   margin-left: -15px;
   margin-top: -15px;
-  color: #262144;
+  color: #00923f;
   font-size: 30px;
 }
 .box .overlay.dark,
@@ -2395,7 +2395,7 @@ the class .animated-dropdown-menu to the .dropdown-menu ul (or ol)*/
   margin-right: 10px;
 }
 .alert .close {
-  color: #262144;
+  color: #00923f;
   opacity: 0.2;
   filter: alpha(opacity=20);
 }
@@ -3927,25 +3927,25 @@ table.text-center th {
   background-color: #ffffff;
 }
 .btn-reddit {
-  color: #262144000;
+  color: #00923f000;
   background-color: #eff7ff;
   border-color: rgba(0, 0, 0, 0.2);
 }
 .btn-reddit:focus,
 .btn-reddit.focus {
-  color: #262144000;
+  color: #00923f000;
   background-color: #bcddff;
   border-color: rgba(0, 0, 0, 0.2);
 }
 .btn-reddit:hover {
-  color: #262144000;
+  color: #00923f000;
   background-color: #bcddff;
   border-color: rgba(0, 0, 0, 0.2);
 }
 .btn-reddit:active,
 .btn-reddit.active,
 .open > .dropdown-toggle.btn-reddit {
-  color: #262144000;
+  color: #00923f000;
   background-color: #bcddff;
   border-color: rgba(0, 0, 0, 0.2);
 }
@@ -3956,7 +3956,7 @@ table.text-center th {
 }
 .btn-reddit .badge {
   color: #eff7ff;
-  background-color: #262144000;
+  background-color: #00923f000;
 }
 .btn-soundcloud {
   color: #ffffff;
@@ -4466,7 +4466,7 @@ table.text-center th {
   color: #fff !important;
 }
 .bg-gray {
-  color: #262144;
+  color: #00923f;
   background-color: #d2d6de !important;
 }
 .bg-gray-light {
@@ -4537,11 +4537,11 @@ table.text-center th {
   background-color: #d81b60 !important;
 }
 .bg-gray-active {
-  color: #262144;
+  color: #00923f;
   background-color: #b5bbc8 !important;
 }
 .bg-black-active {
-  background-color: #262144000 !important;
+  background-color: #00923f000 !important;
 }
 .bg-red-active,
 .modal-danger .modal-header,

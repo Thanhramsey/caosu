@@ -1,6 +1,6 @@
 <html>
 <body>
-	<div style="color: #262144;">
+	<div style="color: #00923f;">
 		<p>Xin chào <?php echo $customer['fullname']?>,</p>
 		<p>Cảm ơn Quý khách đã đặt hàng tại <strong>TEMPO CHUPUH</strong>!</p>
 		<p>Đơn hàng của Quý khách đã được tiếp nhận, chúng tôi sẽ nhanh chóng liên hệ với Quý khách.</p>
@@ -49,7 +49,7 @@
 			</table>
 			<table style="width:100%;border-collapse:collapse">
 				<thead>
-					<tr style="border:1px solid #d7d7d7; background: #262144;">
+					<tr style="border:1px solid #d7d7d7; background: #00923f;">
 						<th style="text-align:left;padding:5px 10px"><strong>Sản phẩm</strong></th>
 						<th style="text-align:center;padding:5px 10px"><strong>Số lượng</strong></th>
 						<th style="text-align:center;padding:5px 10px"><strong>Đơn giá</strong></th>

@@ -7,7 +7,7 @@
     <mask id="resize-b" fill="#fff">
       <use xlink:href="#resize-a"/>
     </mask>
-    <use fill="#262144" fill-rule="nonzero" xlink:href="#resize-a"/>
+    <use fill="#00923f" fill-rule="nonzero" xlink:href="#resize-a"/>
     <g fill="#3B474E" mask="url(#resize-b)">
       <polygon points="0 0 18 0 18 18 0 18"/>
     </g>

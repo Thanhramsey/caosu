@@ -7,7 +7,7 @@
     <mask id="presets-b" fill="#fff">
       <use xlink:href="#presets-a"/>
     </mask>
-    <use fill="#262144" fill-rule="nonzero" xlink:href="#presets-a"/>
+    <use fill="#00923f" fill-rule="nonzero" xlink:href="#presets-a"/>
     <g fill="#3B474E" mask="url(#presets-b)">
       <polygon points="0 0 18 0 18 18 0 18"/>
     </g>

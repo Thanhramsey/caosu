@@ -33,7 +33,7 @@
     <div class="container" style="margin-top: 10px;">
         <div class="row">
             <h1 class="text-bold text-center text-beauty">Giới thiệu <span
-                    class="text-bold text-beauty text-gradient">TEMPO</span></h1>
+                    class="text-bold text-beauty text-gradient">CTY CAO SU MANGYANG</span></h1>
         </div>
         <div class="row">
             <div class="col-md-6" style="padding: 0px 50px !important;">
@@ -42,397 +42,217 @@
             <div class="col-md-6 align-items-center" style="padding: 20px 50px !important;">
                 <div class="row fadeInDown" data-wow-delay="250ms" data-wow-duration="1s"
                     style="visibility: visible; animation-delay: 250ms; animation-name: fadeInDown; animation-duration: 1s">
-                    <h3 style="color:#fc2a40" class="text-beauty text-bold"> <i class="fas fa-sun fa-spin fa-sm"></i>
-                        Thành Lập</h3>
-                    <p class="text-beauty text-bold">Trung tâm Tempo được thành lập vào năm 2021.</p>
+                    <h4 style="color:#fc2a40" class="text-beauty text-bold"> <i class="fas fa-sun fa-spin fa-sm"></i>
+                        Thành Lập</h4>
+                    <p class="text-beauty text-bold">Công ty TNHH MTV MangYang được thành lập vào năm 2021.</p>
                 </div>
                 <div class="row fadeInRight" data-wow-delay="250ms" data-wow-duration="1s"
                     style="visibility: visible; animation-delay: 250ms; animation-name: fadeInRight; animation-duration: 1s">
-                    <h3 style="color:#fc2a40" class="text-beauty text-bold hvr-icon-pulse-grow"> <i
-                            class="fas fa-star fa-sm hvr-icon"></i> Sứ mạng</h3>
-                    <p class="text-beauty text-bold">Giúp cho học viên trở thành những nghệ sĩ piano tài năng và đầy
-                        năng lượng bằng cách cung cấp cho họ chương trình học đa dạng, chuyên nghiệp và cá nhân hóa.
-                        Chúng tôi cam kết tạo ra môi trường học tập thân thiện và đầy cảm hứng, giúp học viên phát triển
-                        tối đa khả năng của mình và đạt được mục tiêu âm nhạc của mình..</p>
+                    <h4 style="color:#fc2a40" class="text-beauty text-bold hvr-icon-pulse-grow"> <i
+                            class="fas fa-star fa-sm hvr-icon"></i> Sứ mạng</h4>
+                    <p class="text-beauty text-bold">Năm 2009 Công ty TNHH Một Thành Viên Tổng Công ty Cao su MangYang
+                        được thành lập theo Quyết định số 1279/QĐ-BNN-ĐMDN ngày 04 tháng 05 năm 2009 của Bộ Nông nghiệp
+                        và Phát triển Nông thôn, do Tập đoàn Công nghiệp cao su Việt Nam làm chủ sở hữu, hoạt động theo
+                        mô hình Công ty mẹ - Công ty con với lĩnh vực sản xuất kinh doanh chính: Trồng, chăm sóc, khai
+                        thác, chế biến và xuất khẩu Cao su thiên nhiên..</p>
                 </div>
                 <div class="row fadeInLeft" data-wow-delay="250ms" data-wow-duration="1s"
                     style="visibility: visible; animation-delay: 250ms; animation-name: fadeInLeft; animation-duration: 1s">
-                    <h3 style="color:#fc2a40" class="text-beauty text-bold hvr-icon-buzz-out"> <i
-                            class="fas fa-handshake hvr-icon fa-sm"></i> Cam kết</h3>
-                    <p class="text-beauty text-bold">Mang đến những kiến thức và trải nghiệm tốt nhất đến cho học viên,
-                        bên cạnh đó cam kết cung cấp các sản phẩm chất lượng tới tay người dùng.</p>
+                    <h4 style="color:#fc2a40" class="text-beauty text-bold hvr-icon-buzz-out"> <i
+                            class="fas fa-handshake hvr-icon fa-sm"></i> Cam kết</h4>
+                    <p class="text-beauty text-bold"> Các sản phẩm được sản xuất đạt chất lượng cao do việc tiếp nhận
+                        nguyên liệu từ vườn cây được thường xuyên kiểm tra, kiểm soát đảm bảo tốt yêu cầu sản xuất theo
+                        chủng loại để công tác chế biến ngày càng được hoàn thiện theo hướng đồng nhất về chất lượng
+                        trên cùng một sản phẩm giữa các nhà máy, đồng thời chú trọng công tác vệ sinh nhà xưởng, thiết
+                        bị,... bảo đảm sản phẩm sản xuất đạt chất lượng cao nhất.</p>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container" style="margin-top: 20px;">
-        <div class="sale-title">
-            <span class="text-beauty">SẢN PHẨM KHUYẾN MÃI HOT </span>
-        </div>
-    </div>
-    <div class="container" style="margin-bottom: 20px;">
-        <div class="owl-carousel owl-carousel-product owl-theme" style="border: 1px solid #262144; padding: 10px 10px">
-            <?php
-        $product_sale = $this->Mproduct->product_sale(10);
-        foreach ($product_sale as $row) :?>
-            <div class="item" style="margin: 0px;">
-                <div class="products-sale">
-                    <div class="lt-product-group-image">
-                        <a href="<?php echo $row['alias'] ?>" title="<?php echo $row['name'] ?>">
-                            <img class="img-p" src="public/images/products/<?php echo $row['avatar'] ?>" alt="">
-                        </a>
-                        <?php if($row['sale'] > 0) :?>
-                        <div class="giam-percent">
-                            <span class="text-giam-percent">Giảm <?php echo $row['sale'] ?>%</span>
-                        </div>
-                        <?php endif; ?>
-                    </div>
-                    <div class="lt-product-group-info">
-                        <a href="<?php echo $row['alias'] ?>" title="<?php echo $row['name'] ?>"
-                            style="text-align: left;">
-                            <h3><?php echo $row['name'] ?></h3>
-                        </a>
-                        <div>
-                            <div class="lt-product-star-3">
-                                <?php if ($row["star"] <= 1 ) : ?>
-                                <span class="fa fa-star"></span>
-                                <?php elseif ($row["star"] > 1 && $row["star"] <= 2) : ?>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <?php elseif ($row["star"] > 2 && $row["star"] <= 3) : ?>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <?php elseif ($row["star"] > 3 && $row["star"] <= 4) : ?>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <?php elseif ($row["star"] > 4 && $row["star"] <= 5) : ?>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <?php endif; ?>
-                                <span class="sell_num">| Đã bán <?php echo(number_format($row['number_buy'])); ?></span>
-                            </div>
-                        </div>
-                        <div class="price-box">
-                            <?php if($row['sale'] > 0) :?>
-
-                            <p class="old-price">
-                                <span class="price"><?php echo(number_format($row['price'])); ?>₫</span>
-                            </p>
-                            <p class="special-price">
-                                <span class="price"><?php echo(number_format($row['price_sale'])); ?>₫</span>
-                            </p>
-                            <?php else: ?>
-                            <!-- <p class="old-price">
-                                    <span class="price" style="color: #fff"><?php echo(number_format($row['price'])); ?>₫</span>
-                                </p> -->
-                            <p class="special-price">
-                                <span class="price"><?php echo(number_format($row['price'])); ?>₫</span>
-                            </p>
-                            <?php endif;?>
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                </div>
-            </div>
-            <?php endforeach; ?>
-        </div>
-    </div>
-
-    <!-- Sản phẩm tiềm năng -->
-    <?php
- $product_tiemnang = $this->Mproduct->product_tiemnang(10);
- if(count($product_tiemnang) > 0) :?>
-    <div class="container" style="margin-top: 20px;">
-        <div class="sale-title">
-            <span class="text-beauty">SẢN PHẨM TIỀM NĂNG </span>
-        </div>
-    </div>
-    <div class="container" style="margin-bottom: 20px;">
-        <div class="owl-carousel owl-carousel-product owl-theme" style="border: 1px solid #262144; padding: 10px 10px">
-            <?php
-        $product_tiemnang = $this->Mproduct->product_tiemnang(10);
-        foreach ($product_tiemnang as $row) :?>
-            <div class="item" style="margin: 0px;">
-                <div class="products-sale">
-                    <div class="lt-product-group-image">
-                        <a href="<?php echo $row['alias'] ?>" title="<?php echo $row['name'] ?>">
-                            <img class="img-p" src="public/images/products/<?php echo $row['avatar'] ?>" alt="">
-                        </a>
-
-                        <?php if($row['sale'] > 0) :?>
-                        <div class="giam-percent">
-                            <span class="text-giam-percent">Giảm <?php echo $row['sale'] ?>%</span>
-                        </div>
-                        <?php endif; ?>
-                    </div>
-                    <div class="lt-product-group-info">
-                        <a href="<?php echo $row['alias'] ?>" title="<?php echo $row['name'] ?>"
-                            style="text-align: left;">
-                            <h3><?php echo $row['name'] ?></h3>
-                        </a>
-                        <div>
-                            <div class="lt-product-star-3">
-                                <?php if ($row["star"] <= 1 ) : ?>
-                                <span class="fa fa-star"></span>
-                                <?php elseif ($row["star"] > 1 && $row["star"] <= 2) : ?>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <?php elseif ($row["star"] > 2 && $row["star"] <= 3) : ?>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <?php elseif ($row["star"] > 3 && $row["star"] <= 4) : ?>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <?php elseif ($row["star"] > 4 && $row["star"] <= 5) : ?>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <?php endif; ?>
-                                <span class="sell_num">| Đã bán <?php echo(number_format($row['number_buy'])); ?></span>
-                            </div>
-                        </div>
-                        <div class="price-box">
-                            <?php if($row['sale'] > 0) :?>
-
-                            <p class="old-price">
-                                <span class="price"><?php echo(number_format($row['price'])); ?>₫</span>
-                            </p>
-                            <p class="special-price">
-                                <span class="price"><?php echo(number_format($row['price_sale'])); ?>₫</span>
-                            </p>
-                            <?php else: ?>
-                            <!-- <p class="old-price">
-                                    <span class="price" style="color: #fff"><?php echo(number_format($row['price'])); ?>₫</span>
-                                </p> -->
-                            <p class="special-price">
-                                <span class="price"><?php echo(number_format($row['price'])); ?>₫</span>
-                            </p>
-                            <?php endif;?>
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                </div>
-            </div>
-            <?php endforeach; ?>
-        </div>
-    </div>
-    <?php endif;?>
-
-
-    <div class="container" style="margin-top: 20px;">
-        <div class="sale-title">
-            <span class="text-beauty">SẢN PHẨM BÁN CHẠY</span>
-        </div>
-    </div>
-    <div class="container" style="margin-bottom: 20px;">
-        <div class="owl-carousel owl-carousel-product owl-theme" style="border: 1px solid #262144; padding: 10px 10px">
-            <?php
-        $product_sale = $this->Mproduct->product_selling(10);
-        foreach ($product_sale as $row) :?>
-            <div class="item" style="margin: 0px;">
-                <div class="products-sale">
-                    <div class="lt-product-group-image">
-                        <a href="<?php echo $row['alias'] ?>" title="<?php echo $row['name'] ?>">
-                            <img class="img-p" src="public/images/products/<?php echo $row['avatar'] ?>" alt="">
-                        </a>
-                        <?php if($row['sale'] > 0) :?>
-                        <div class="giam-percent">
-                            <span class="text-giam-percent">Giảm <?php echo $row['sale'] ?>%</span>
-                        </div>
-                        <?php endif; ?>
-                    </div>
-                    <div class="lt-product-group-info">
-                        <a href="<?php echo $row['alias'] ?>" title="<?php echo $row['name'] ?>"
-                            style="text-align: left;">
-                            <h3><?php echo $row['name'] ?></h3>
-                        </a>
-                        <div>
-                            <div class="lt-product-star-3">
-                                <?php if ($row["star"] <= 1 ) : ?>
-                                <span class="fa fa-star"></span>
-                                <?php elseif ($row["star"] > 1 && $row["star"] <= 2) : ?>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <?php elseif ($row["star"] > 2 && $row["star"] <= 3) : ?>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <?php elseif ($row["star"] > 3 && $row["star"] <= 4) : ?>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <?php elseif ($row["star"] > 4 && $row["star"] <= 5) : ?>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <?php endif; ?>
-                                <span class="sell_num">| Đã bán <?php echo(number_format($row['number_buy'])); ?></span>
-                            </div>
-                        </div>
-                        <div class="price-box">
-                            <?php if($row['sale'] > 0) :?>
-
-                            <p class="old-price">
-                                <span class="price"><?php echo(number_format($row['price'])); ?>₫</span>
-                            </p>
-                            <p class="special-price">
-                                <span class="price"><?php echo(number_format($row['price_sale'])); ?>₫</span>
-                            </p>
-                            <?php else: ?>
-                            <!-- <p class="old-price">
-                                    <span class="price" style="color: #fff"><?php echo(number_format($row['price'])); ?>₫</span>
-                                </p> -->
-                            <p class="special-price">
-                                <span class="price"><?php echo(number_format($row['price'])); ?>₫</span>
-                            </p>
-                            <?php endif;?>
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                </div>
-            </div>
-            <?php endforeach; ?>
-        </div>
-    </div>
-</section>
-
-</section>
-<div id="content">
     <div class="container">
-        <?php
-        $listCategory=$this->Mcategory->category_list(0,'10');
-        foreach ($listCategory as $rowCategory):
-            // row dien thoai
-            $subCategory=$this->Mcategory->category_list($rowCategory['id'],'10');
-            // Id dien thoai
-            $catId=$this->Mcategory->category_id($rowCategory['link']);
-            // list id dt ss, apple,...
-            $listCatId=$this->Mcategory->category_listcat($catId);
-            // list dt ss, apple
-            $listProducts=$this->Mproduct->product_home_limit($listCatId,10);
-            if((count($listProducts) >= 2)):?>
-        <div class="sale-title">
-            <!-- <span><a href="<?php echo  $rowCategory['link']?>"><?php echo  $rowCategory['name']?> nổi bật</a></span> -->
-            <span class="text-beauty"><?php echo  $rowCategory['name']?> nổi bật</span>
-            <!-- <?php if((count($subCategory) >= 0)):?>
-                        <ul class="sub-category">
-                            <?php foreach ($subCategory as $rowSubCategory) :?>
-                                <li>
-                                    <a href="san-pham/<?php echo $rowSubCategory['link'] ?>" '
-                                        title="<?php echo $rowSubCategory['name'] ?>"
-                                        class="ws-nw overflow ellipsis"
-                                        >
-                                        <?php echo $rowSubCategory['name'] ?>
-                                    </a>
-                                </li>
-                            <?php endforeach; ?>
-                        </ul>
-						<?php endif;?> -->
+        <div class="col-md-2">
+            <div class="img-title_all_in3">
+                <h3>Sản phẩm</h3>
+            </div>
+            <?php
+                    $product_sale = $this->Mproduct->product_sale(6);
+                    foreach ($product_sale as $row) :?>
+            <div class="col-md-12" style="border:1px solid #e5e5e5">
+                <a href="<?php echo $row['alias'] ?>" title="<?php echo $row['name'] ?>">
+                    <img class="img-news-1 hvr-pulse-shrink" src="public/images/products/<?php echo $row['avatar'] ?>"
+                        alt="">
+                </a>
+            </div>
+            <?php endforeach; ?>
         </div>
-        <div class="list-product" style="margin-bottom:20px">
-            <div class="product-container">
-                <?php foreach ($listProducts as $sp) :?>
-                <div class="p-box-5">
-                    <div class="product-lt  hvr-pulse-shrink">
-                        <div class="lt-product-group-image">
-                            <a href="<?php echo $sp['alias'] ?>" title="<?php echo $sp['name'] ?>">
-                                <img class="img-p" src="public/images/products/<?php echo $sp['avatar'] ?>" alt="">
-                            </a>
-                            <?php if($sp['sale'] > 0) :?>
-                            <div class="giam-percent">
-                                <span class="text-giam-percent">Giảm <?php echo $sp['sale'] ?>%</span>
-                            </div>
-                            <?php endif; ?>
-                        </div>
-
-                        <div class="lt-product-group-info">
-                            <a href="<?php echo $sp['alias'] ?>" title="<?php echo $sp['name'] ?>"
-                                style="text-align: left;">
-                                <h3><?php echo $sp['name'] ?></h3>
-                            </a>
-                            <div>
-                                <div class="lt-product-star-3">
-                                    <?php if ($row["star"] <= 1 ) : ?>
-                                    <span class="fa fa-star"></span>
-                                    <?php elseif ($row["star"] > 1 && $row["star"] <= 2) : ?>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                    <?php elseif ($row["star"] > 2 && $row["star"] <= 3) : ?>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                    <?php elseif ($row["star"] > 3 && $row["star"] <= 4) : ?>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                    <?php elseif ($row["star"] > 4 && $row["star"] <= 5) : ?>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                    <?php endif; ?>
-                                    <span class="sell_num">| Đã bán
-                                        <?php echo(number_format($row['number_buy'])); ?></span>
-                                </div>
-                            </div>
-                            <div class="price-box">
-                                <?php if($sp['sale'] > 0) :?>
-
-                                <p class="old-price">
-                                    <span class="price"><?php echo(number_format($sp['price'])); ?>₫</span>
-                                </p>
-                                <p class="special-price">
-                                    <span class="price"><?php echo(number_format($sp['price_sale'])); ?>₫</span>
-                                </p>
-                                <?php else: ?>
-                                <!-- <p class="old-price">
-                                                    <span class="price" style="color: #fff"><?php echo(number_format($sp['price'])); ?>₫</span>
-                                                </p> -->
-                                <p class="special-price">
-                                    <span class="price"><?php echo(number_format($sp['price'])); ?>₫</span>
-                                </p>
-                                <?php endif;?>
-                            </div>
-                            <div class="lienhe">
-                                <a href="<?php echo base_url() ?>doanhngiep/detail/<?php $producer = $this->Muser->user_detail_id_fg($sp['userId']);echo $producer['id'] ?>"
-                                    title="">
-                                    <h3>Liên hệ</h3>
+        <div class="col-md-8">
+            <div style="margin-bottom: 20px;">
+                <div class="row title_all">
+                    <span class="img-t1"></span>
+                    <span class="img-title_all_in2">Tin tức & Sự kiện </span>
+                    <span class="img-t2"></span>
+                </div>
+                <div class="row news-row">
+                    <?php
+                    $product_sale = $this->Mproduct->product_sale(6);
+                    foreach ($product_sale as $row) :?>
+                    <div class="col-md-6"
+                        style="margin-top: 10px;border-bottom:1px solid #e5e5e5;padding:10px;height:300px">
+                        <div class="row">
+                            <div class="col-md-6" style="padding-right:0px !important">
+                                <a href="<?php echo $row['alias'] ?>" title="<?php echo $row['name'] ?>">
+                                    <img class="img-news-1 hvr-pulse-shrink"
+                                        src="public/images/products/<?php echo $row['avatar'] ?>" alt="">
                                 </a>
                             </div>
-                            <div class="clear"></div>
+                            <div class="col-md-6" style="padding-left:0px !important">
+                                <div>
+                                    <h5 class="news-title">Đoàn Thanh niên Cao su Đồng Nai kết nghĩa với Đoàn Thanh niên
+                                        Công an
+                                        tỉnh
+                                        Đoàn Thanh niên Cao su Đồng Nai kết nghĩa với Đoàn Thanh niên Công an tỉnh</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-tomtat">
+                            <p>Công đoàn dự kiến trích 145 tỷ đồng từ quỹ tài chính hỗ trợ lao động mất việc,
+                                tạm hoãn
+                                hợp
+                                đồng mức 1-3 triệu đồng, kéo dài tới cuối năm 2023.
+                                Công đoàn dự kiến trích 145 tỷ đồng từ quỹ tài chính hỗ trợ lao động mất việc,
+                                tạm hoãn
+                                hợp
+                                đồng mức 1-3 triệu đồng, kéo dài tới cuối năm 2023.
+                                Công đoàn dự kiến trích 145 tỷ đồng từ quỹ tài chính hỗ trợ lao động mất việc,
+                                tạm hoãn
+                                hợp
+                                đồng mức 1-3 triệu đồng, kéo dài tới cuối năm 2023.
+                                Công đoàn dự kiến trích 145 tỷ đồng từ quỹ tài chính hỗ trợ lao động mất việc,
+                                tạm hoãn
+                                hợp
+                                đồng mức 1-3 triệu đồng, kéo dài tới cuối năm 2023.
+                                Công đoàn dự kiến trích 145 tỷ đồng từ quỹ tài chính hỗ trợ lao động mất việc,
+                                tạm hoãn
+                                hợp
+                                đồng mức 1-3 triệu đồng, kéo dài tới cuối năm 2023.
+                                Công đoàn dự kiến trích 145 tỷ đồng từ quỹ tài chính hỗ trợ lao động mất việc,
+                                tạm hoãn
+                                hợp
+                                đồng mức 1-3 triệu đồng, kéo dài tới cuối năm 2023. </p>
                         </div>
                     </div>
+                    <?php endforeach; ?>
                 </div>
-                <?php endforeach;?>
+
+                <div class="row" style="margin-bottom:10px">
+                    <a href="<?php echo $row['alias'] ?>" title="<?php echo $row['name'] ?>">
+                        <img class="img-bt-news" src="public/images/\banners/img-1.jpg ?>" alt="">
+                    </a>
+                </div>
+
+                <div class="row title_all">
+                    <span class="img-t1"></span>
+                    <span class="img-title_all_in2">Tin tức & Sự kiện </span>
+                    <span class="img-t2"></span>
+                </div>
+                <div class="row news-row">
+                    <?php
+                    $product_sale = $this->Mproduct->product_sale(6);
+                    foreach ($product_sale as $row) :?>
+                    <div class="col-md-6"
+                        style="margin-top: 10px;border-bottom:1px solid #e5e5e5;padding:10px;height:300px">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <a href="<?php echo $row['alias'] ?>" title="<?php echo $row['name'] ?>">
+                                    <img class="img-news-1 hvr-pulse-shrink"
+                                        src="public/images/products/<?php echo $row['avatar'] ?>" alt="">
+                                </a>
+                            </div>
+                            <div class="col-md-6">
+                                <div>
+                                    <h5 class="news-title">Đoàn Thanh niên Cao su Đồng Nai kết nghĩa với Đoàn Thanh
+                                        niên
+                                        Công an
+                                        tỉnh
+                                        Đoàn Thanh niên Cao su Đồng Nai kết nghĩa với Đoàn Thanh niên Công an tỉnh
+                                    </h5>
+                                </div>
+                                <div class="news-tomtat">
+                                    <p>Công đoàn dự kiến trích 145 tỷ đồng từ quỹ tài chính hỗ trợ lao động mất
+                                        việc,
+                                        tạm hoãn
+                                        hợp
+                                        đồng mức 1-3 triệu đồng, kéo dài tới cuối năm 2023.
+                                        Công đoàn dự kiến trích 145 tỷ đồng từ quỹ tài chính hỗ trợ lao động mất
+                                        việc,
+                                        tạm hoãn
+                                        hợp
+                                        đồng mức 1-3 triệu đồng, kéo dài tới cuối năm 2023.
+                                        Công đoàn dự kiến trích 145 tỷ đồng từ quỹ tài chính hỗ trợ lao động mất
+                                        việc,
+                                        tạm hoãn
+                                        hợp
+                                        đồng mức 1-3 triệu đồng, kéo dài tới cuối năm 2023.
+                                        Công đoàn dự kiến trích 145 tỷ đồng từ quỹ tài chính hỗ trợ lao động mất
+                                        việc,
+                                        tạm hoãn
+                                        hợp
+                                        đồng mức 1-3 triệu đồng, kéo dài tới cuối năm 2023.
+                                        Công đoàn dự kiến trích 145 tỷ đồng từ quỹ tài chính hỗ trợ lao động mất
+                                        việc,
+                                        tạm hoãn
+                                        hợp
+                                        đồng mức 1-3 triệu đồng, kéo dài tới cuối năm 2023.
+                                        Công đoàn dự kiến trích 145 tỷ đồng từ quỹ tài chính hỗ trợ lao động mất
+                                        việc,
+                                        tạm hoãn
+                                        hợp
+                                        đồng mức 1-3 triệu đồng, kéo dài tới cuối năm 2023. </p>
+                                </div>
+                                <button class="btn btn-primary">Xem</button>
+                            </div>
+                        </div>
+                    </div>
+                    <?php endforeach; ?>
+                </div>
             </div>
         </div>
-        <?php endif;?>
-        <?php endforeach;?>
+        <div class="col-md-2">
+            <div class="img-title_all_in3">
+                <h3>Thành tích</h3>
+            </div>
+            <?php
+                    $product_sale = $this->Mproduct->product_sale(6);
+                    foreach ($product_sale as $row) :?>
+            <div class="col-md-12" style="border:1px solid #e5e5e5">
+                <a href="<?php echo $row['alias'] ?>" title="<?php echo $row['name'] ?>">
+                    <img class="img-news-1 hvr-pulse-shrink" src="public/images/products/<?php echo $row['avatar'] ?>"
+                        alt="">
+                </a>
+            </div>
+            <?php endforeach; ?>
+
+            <div class="col-md-12 text-center">
+                <h4 style="color:#fff;background-color:orange;padding:10px 0px">Weblink</h4>
+                <select class="weblink-sl" onchange="window.open(this.value,'_bank')" cursorshover="true">
+                    <option>Web link</option>
+                    <option value="http://congdoancaosudongnai.vn/">Công đoàn Tổng Công ty Cao su Đồng Nai</option>
+                    <option value="http://www.kcnlongkhanh.com.vn/">Công Ty CP KCN Long Khánh </option>
+                    <option value="https://vnrubbergroup.com/">Tập Đoàn Công Nghiệp Cao Su Việt Nam</option>
+                    <option value="http://www.vra.com.vn/">Hiệp Hội Cao su Việt Nam </option>
+                    <option value="https://vnrubbergroup.com/doanhnhantre">Hội Doanh Nhân Trẻ VRG </option>
+                </select>
+            </div>
+        </div>
     </div>
-</div>
+</section>
+
+</section>
+
 
 <div class="home-blog">
     <div class="container">
         <div class="blog-content">
-            <!-- <div class="row-p">
-
-        </div> -->
             <div class="text-center">
                 <h2 class="sectin-title title title-blue text-beauty">Tin tức</h2>
             </div>

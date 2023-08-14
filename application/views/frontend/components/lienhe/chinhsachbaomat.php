@@ -1,6 +1,6 @@
 <section>
 	<div class="container">
-	<h2 style="color: #262144;border-bottom: 2px solid #ff6300;margin-bottom:20px;padding:10px 0px 5px 0px"><span>Chính sách bảo mật</span></h2>
+	<h2 style="color: #00923f;border-bottom: 2px solid #ff6300;margin-bottom:20px;padding:10px 0px 5px 0px"><span>Chính sách bảo mật</span></h2>
 	<p>Tempo cam kết sẽ bảo mật những thông tin mang tính riêng tư của khách hàng. Quý khách vui lòng đọc “Chính sách bảo mật” dưới đây trước khi truy cập những nội dung khác để hiểu hơn những cam kết mà chúng tôi thực hiện, nhằm tôn trọng và bảo vệ quyền lợi của người truy cập:</p>
 
 <p>1. Thu thập thông tin cá nhân:</p>

@@ -8,7 +8,7 @@
       <mask id="ico-check-gray-b" fill="#fff">
         <use xlink:href="#ico-check-gray-a"/>
       </mask>
-      <use fill="#262144" fill-rule="nonzero" xlink:href="#ico-check-gray-a"/>
+      <use fill="#00923f" fill-rule="nonzero" xlink:href="#ico-check-gray-a"/>
       <g fill="#ffffff" mask="url(#ico-check-gray-b)">
         <polygon points="0 0 18 0 18 18 0 18" transform="translate(-1 -1)"/>
       </g>

@@ -103,7 +103,7 @@ h1.samples a
 
 h2.samples
 {
-	color: #262144000;
+	color: #00923f000;
 	font-size: 130%;
 	margin: 15px 0 0 0;
 	padding: 0;
@@ -243,7 +243,7 @@ label
    added to it, so we can style it differently. */
 .cke_editable.cke_editable_inline.cke_focus
 {
-	box-shadow: inset 0px 0px 20px 3px #ddd, inset 0 0 1px #262144;
+	box-shadow: inset 0px 0px 20px 3px #ddd, inset 0 0 1px #00923f;
 	outline: none;
 	background: #eee;
 	cursor: text;

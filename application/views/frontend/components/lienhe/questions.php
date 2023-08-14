@@ -1,6 +1,6 @@
 <section>
 	<div class="container">
-		<h2 style="color: #262144;border-bottom: 2px solid #ff6300;margin-bottom:20px;padding:10px 0px 5px 0px"><span>Câu hỏi thường gặp</span></h2>
+		<h2 style="color: #00923f;border-bottom: 2px solid #ff6300;margin-bottom:20px;padding:10px 0px 5px 0px"><span>Câu hỏi thường gặp</span></h2>
 		<div id="accordion">
 			<div class="card">
 				<div class="card-header" id="headingOne">

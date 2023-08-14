@@ -7,7 +7,7 @@
     <mask id="folder-add-b" fill="#fff">
       <use xlink:href="#folder-add-a"/>
     </mask>
-    <use fill="#262144" fill-rule="nonzero" xlink:href="#folder-add-a"/>
+    <use fill="#00923f" fill-rule="nonzero" xlink:href="#folder-add-a"/>
     <g fill="#3B474E" mask="url(#folder-add-b)">
       <polygon points="0 0 18 0 18 18 0 18"/>
     </g>
