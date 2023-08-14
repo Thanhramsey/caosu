@@ -1,5 +1,5 @@
 <section class="logo-search">
-    <div class="container">
+    <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 logo">
             <a href="<?php echo base_url() ?>"><img src="<?php echo base_url() ?>public/images/logo.png"
                     alt="Logo Construction"></a>

@@ -69,22 +69,27 @@
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="col-md-2">
-            <div class="img-title_all_in3">
-                <h3>Sản phẩm</h3>
+
+    <div class="container main-view">
+
+        <!-- left-view -->
+        <div class="col-md-2 pl-0">
+            <div class="list-menu pull-left">
+                <?php $this->load->view('frontend/modules/category'); ?>
             </div>
-            <?php
-                    $product_sale = $this->Mproduct->product_sale(6);
-                    foreach ($product_sale as $row) :?>
-            <div class="col-md-12" style="border:1px solid #e5e5e5">
-                <a href="<?php echo $row['alias'] ?>" title="<?php echo $row['name'] ?>">
-                    <img class="img-news-1 hvr-pulse-shrink" src="public/images/products/<?php echo $row['avatar'] ?>"
-                        alt="">
-                </a>
+            <div class="pull-left" style="width:100%">
+                <ul class="list_r">
+                    <li class="r1"><a href="https://vnrubbergroup.com/thongtinnoibo" cursorshover="true">THÔNG TIN NỘI
+                            BỘ</a></li>
+                    <li class="r3"><a
+                            href=" http://www.vnrubbergroup.com/media/tailieu/logo va huong dan su dung.zip     "
+                            cursorshover="true">LOGO VRG</a></li>
+                    <li class="r4"><a href="http://www.vnrubbergroup.com/khenthuong" cursorshover="true">KHEN THƯỞNG</a>
+                    </li>
+                </ul>
             </div>
-            <?php endforeach; ?>
         </div>
+        <!-- news-view -->
         <div class="col-md-8">
             <div style="margin-bottom: 20px;">
                 <div class="row title_all">
@@ -107,10 +112,14 @@
                             </div>
                             <div class="col-md-6" style="padding-left:0px !important">
                                 <div>
-                                    <h5 class="news-title">Đoàn Thanh niên Cao su Đồng Nai kết nghĩa với Đoàn Thanh niên
-                                        Công an
-                                        tỉnh
-                                        Đoàn Thanh niên Cao su Đồng Nai kết nghĩa với Đoàn Thanh niên Công an tỉnh</h5>
+                                    <a href="<?php echo $row['alias'] ?>" title="<?php echo $row['name'] ?>">
+                                        <h5 class="news-title">Đoàn Thanh niên Cao su Đồng Nai kết nghĩa với Đoàn Thanh
+                                            niên
+                                            Công an
+                                            tỉnh
+                                            Đoàn Thanh niên Cao su Đồng Nai kết nghĩa với Đoàn Thanh niên Công an tỉnh
+                                        </h5>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -152,7 +161,7 @@
 
                 <div class="row title_all">
                     <span class="img-t1"></span>
-                    <span class="img-title_all_in2">Tin tức & Sự kiện </span>
+                    <span class="img-title_all_in2">Tổ chức xây dựng đảng </span>
                     <span class="img-t2"></span>
                 </div>
                 <div class="row news-row">
@@ -162,69 +171,63 @@
                     <div class="col-md-6"
                         style="margin-top: 10px;border-bottom:1px solid #e5e5e5;padding:10px;height:300px">
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-6" style="padding-right:0px !important">
                                 <a href="<?php echo $row['alias'] ?>" title="<?php echo $row['name'] ?>">
                                     <img class="img-news-1 hvr-pulse-shrink"
                                         src="public/images/products/<?php echo $row['avatar'] ?>" alt="">
                                 </a>
                             </div>
-                            <div class="col-md-6">
-                                <div>
-                                    <h5 class="news-title">Đoàn Thanh niên Cao su Đồng Nai kết nghĩa với Đoàn Thanh
-                                        niên
+                            <div class="col-md-6" style="padding-left:0px !important">
+                                <a href="<?php echo $row['alias'] ?>" title="<?php echo $row['name'] ?>">
+                                    <h5 class="news-title">Đoàn Thanh niên Cao su Đồng Nai kết nghĩa với Đoàn Thanh niên
                                         Công an
                                         tỉnh
-                                        Đoàn Thanh niên Cao su Đồng Nai kết nghĩa với Đoàn Thanh niên Công an tỉnh
-                                    </h5>
-                                </div>
-                                <div class="news-tomtat">
-                                    <p>Công đoàn dự kiến trích 145 tỷ đồng từ quỹ tài chính hỗ trợ lao động mất
-                                        việc,
-                                        tạm hoãn
-                                        hợp
-                                        đồng mức 1-3 triệu đồng, kéo dài tới cuối năm 2023.
-                                        Công đoàn dự kiến trích 145 tỷ đồng từ quỹ tài chính hỗ trợ lao động mất
-                                        việc,
-                                        tạm hoãn
-                                        hợp
-                                        đồng mức 1-3 triệu đồng, kéo dài tới cuối năm 2023.
-                                        Công đoàn dự kiến trích 145 tỷ đồng từ quỹ tài chính hỗ trợ lao động mất
-                                        việc,
-                                        tạm hoãn
-                                        hợp
-                                        đồng mức 1-3 triệu đồng, kéo dài tới cuối năm 2023.
-                                        Công đoàn dự kiến trích 145 tỷ đồng từ quỹ tài chính hỗ trợ lao động mất
-                                        việc,
-                                        tạm hoãn
-                                        hợp
-                                        đồng mức 1-3 triệu đồng, kéo dài tới cuối năm 2023.
-                                        Công đoàn dự kiến trích 145 tỷ đồng từ quỹ tài chính hỗ trợ lao động mất
-                                        việc,
-                                        tạm hoãn
-                                        hợp
-                                        đồng mức 1-3 triệu đồng, kéo dài tới cuối năm 2023.
-                                        Công đoàn dự kiến trích 145 tỷ đồng từ quỹ tài chính hỗ trợ lao động mất
-                                        việc,
-                                        tạm hoãn
-                                        hợp
-                                        đồng mức 1-3 triệu đồng, kéo dài tới cuối năm 2023. </p>
-                                </div>
-                                <button class="btn btn-primary">Xem</button>
+                                        Đoàn Thanh niên Cao su Đồng Nai kết nghĩa với Đoàn Thanh niên Công an tỉnh</h5>
+                                </a>
                             </div>
+                        </div>
+                        <div class="news-tomtat">
+                            <p>Công đoàn dự kiến trích 145 tỷ đồng từ quỹ tài chính hỗ trợ lao động mất việc,
+                                tạm hoãn
+                                hợp
+                                đồng mức 1-3 triệu đồng, kéo dài tới cuối năm 2023.
+                                Công đoàn dự kiến trích 145 tỷ đồng từ quỹ tài chính hỗ trợ lao động mất việc,
+                                tạm hoãn
+                                hợp
+                                đồng mức 1-3 triệu đồng, kéo dài tới cuối năm 2023.
+                                Công đoàn dự kiến trích 145 tỷ đồng từ quỹ tài chính hỗ trợ lao động mất việc,
+                                tạm hoãn
+                                hợp
+                                đồng mức 1-3 triệu đồng, kéo dài tới cuối năm 2023.
+                                Công đoàn dự kiến trích 145 tỷ đồng từ quỹ tài chính hỗ trợ lao động mất việc,
+                                tạm hoãn
+                                hợp
+                                đồng mức 1-3 triệu đồng, kéo dài tới cuối năm 2023.
+                                Công đoàn dự kiến trích 145 tỷ đồng từ quỹ tài chính hỗ trợ lao động mất việc,
+                                tạm hoãn
+                                hợp
+                                đồng mức 1-3 triệu đồng, kéo dài tới cuối năm 2023.
+                                Công đoàn dự kiến trích 145 tỷ đồng từ quỹ tài chính hỗ trợ lao động mất việc,
+                                tạm hoãn
+                                hợp
+                                đồng mức 1-3 triệu đồng, kéo dài tới cuối năm 2023. </p>
                         </div>
                     </div>
                     <?php endforeach; ?>
                 </div>
             </div>
         </div>
-        <div class="col-md-2">
+
+
+        <!-- right content -->
+        <div class="col-md-2 pr-0">
             <div class="img-title_all_in3">
                 <h3>Thành tích</h3>
             </div>
             <?php
                     $product_sale = $this->Mproduct->product_sale(6);
                     foreach ($product_sale as $row) :?>
-            <div class="col-md-12" style="border:1px solid #e5e5e5">
+            <div class="col-md-12 text-center" style="border:1px solid #e5e5e5">
                 <a href="<?php echo $row['alias'] ?>" title="<?php echo $row['name'] ?>">
                     <img class="img-news-1 hvr-pulse-shrink" src="public/images/products/<?php echo $row['avatar'] ?>"
                         alt="">
@@ -232,7 +235,7 @@
             </div>
             <?php endforeach; ?>
 
-            <div class="col-md-12 text-center">
+            <div class="col-md-12 text-center pa-0">
                 <h4 style="color:#fff;background-color:orange;padding:10px 0px">Weblink</h4>
                 <select class="weblink-sl" onchange="window.open(this.value,'_bank')" cursorshover="true">
                     <option>Web link</option>
@@ -243,6 +246,20 @@
                     <option value="https://vnrubbergroup.com/doanhnhantre">Hội Doanh Nhân Trẻ VRG </option>
                 </select>
             </div>
+
+            <div class="col-md-12 text-center pa-0">
+                <h4 style="color:#fff;background-color:orange;padding:10px 0px">Quảng cáo</h4>
+            </div>
+            <?php
+                    $product_sale = $this->Mproduct->product_sale(6);
+                    foreach ($product_sale as $row) :?>
+            <div class="col-md-12 text-center" style="border:1px solid #e5e5e5">
+                <a href="<?php echo $row['alias'] ?>" title="<?php echo $row['name'] ?>">
+                    <img class="img-news-1 hvr-pulse-shrink" src="public/images/products/<?php echo $row['avatar'] ?>"
+                        alt="">
+                </a>
+            </div>
+            <?php endforeach; ?>
         </div>
     </div>
 </section>
